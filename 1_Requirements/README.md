@@ -14,3 +14,11 @@ Minimum click type screen design for efficient ordering.
 Meal price preference options. 
 Structured multifile code.
 
+SWOT ANALYSIS:
+Strengths: A built in app that allows the customer to view the menu and select N number of items and receive the bill instantly.
+Weaknesses: Due to lack of database in C restaurant has to input items available everytime an order is placed.
+Opportunities: Can be used as an online interface for multiple customers and orders.
+Threats: Needs a storage input for smoothe process.
+
+
+
