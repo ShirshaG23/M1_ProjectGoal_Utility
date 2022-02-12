@@ -22,7 +22,7 @@ int main() {
             scanf("%s %f", menu[i].name, &menu[i].price);
             printf("%s %f \n", menu[i].name, menu[i].price);
 	    }
-	
+	    while(1){
     	struct Person person;
     	printf("\n \nHello Customer please enter your name \n");
     	scanf("%s", person.name);
@@ -45,7 +45,7 @@ int main() {
     	    case 2: return 0;
     	    default: printf("Enter a valid choice\n");
     	}
-        while(1){
+        printf("Enter 1 for a new customer, to exit press 0 \n");
             int a;
             scanf("%d",&a);
             if (a == 0) return 0;

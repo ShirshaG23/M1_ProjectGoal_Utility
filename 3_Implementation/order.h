@@ -6,7 +6,7 @@ void order(int menuSize, struct FoodItem menu[], struct Person person) {
     printf("\n\nThis is your order page\n");
     printf("Enter the corresponding number for the items and the quantity \n");
     printf("For example 1 10 means 10 %s \n", menu[0].name);
-    printf("Press -1 to place your order\n");
+    printf("Press -1 -1 to place your order\n");
     int order[menuSize];
     int i;
     for( i=0;i<menuSize;i++)
@@ -18,6 +18,7 @@ void order(int menuSize, struct FoodItem menu[], struct Person person) {
         scanf("%d %d", &choice, &quantity);
         if(choice == -1){
             printf("-1\n");
+            flag = 0;
             break;
         }
         else if(choice>=1 && choice<=menuSize){
