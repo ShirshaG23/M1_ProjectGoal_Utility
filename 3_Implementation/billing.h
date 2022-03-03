@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "person.h"
 #include "fooditem.h"
+#include "payment.h"
 void billings (int order[], int count, struct FoodItem menu[], int menuSize, struct Person person){
     printf("\n\nThank you for ordering your food\nTo confirm your order please pay the bill\n");
     
@@ -23,4 +24,6 @@ void billings (int order[], int count, struct FoodItem menu[], int menuSize, str
     printf("CGST @ 9%% \t\t\t\t\t\t%2f\n", totalSum*0.09);
     printf("SGST/UGST @ 9%% \t\t\t\t\t\t%2f\n", totalSum*0.09);
     printf("Net total \t\t\t\t\t\t%2f\n", totalSum + totalSum*0.18);
+    printf("-----------------------------------------------------------------------\n");
+    paymentMode(totalSum + totalSum*0.18);
 }

@@ -5,10 +5,6 @@
 #include "order.h"
 #include "Menu.h"
 int main() {
-	//code
-	
-
-	
 	    printf("Welcome admin \n");
 	    printf("Please input the menu size\n");
 	    
@@ -38,8 +34,6 @@ int main() {
     	scanf("%d", &choice);
     	printf("\nYour choice is %d \n", choice);
     	
-    	
-        
     	switch (choice){
     	    case 1: showMenu(menu, menuSize); order(sizeof(menu)/sizeof(menu[0]), menu, person); break;
     	    case 2: return 0;
