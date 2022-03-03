@@ -1,17 +1,28 @@
-Sample Input :
+#Sample Input :
 3
+
 Pizza 180
-burger 200 
+
+Burger 200 
+
 Pasta 180
+
 Shirsha
+
 9952917480
+
 1
+
 1 4
+
 2 3
+
 -1 -1
 
-Sample Output:
+#Sample Output:
+
 Thank you for ordering your food
+
 To confirm your order please pay the bill
 -----------------------------------------------------------------------
 
@@ -29,3 +40,7 @@ CGST @ 9%                                               118.800000
 SGST/UGST @ 9%                                          118.800000
 Net total                                               1557.600000
 Enter 1 for a new customer, to exit press 0
+
+#UPI
+#Paytm
+#Debit Card
